@@ -1,3 +1,6 @@
+import sys
+sys.path.append('./yolov5')
+
 import argparse
 import time
 from pathlib import Path
