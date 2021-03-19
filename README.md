@@ -21,6 +21,14 @@ track only people
 python3 tracker.py --source 0 --classes 0
 ```
 
+## Count and send data to ambient
+
+Send data to ambient(https://ambidata.io/) example
+
+```
+python track_and_send_ambient.py --source 0 --classes 0 --conf-thres 0.6 --ambient-channel {channnel} --ambient-wkey {key}
+```
+
 # See Also
 - https://github.com/ultralytics/yolov5
 - https://github.com/wmuron/motpy
