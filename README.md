@@ -15,6 +15,12 @@ use webcam
 ```
 python tracker.py --souce 0
 ```
+
+track only people 
+```
+python3 tracker.py --source 0 --classes 0
+```
+
 # See Also
 - https://github.com/ultralytics/yolov5
 - https://github.com/wmuron/motpy
